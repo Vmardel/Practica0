@@ -10,7 +10,7 @@ Class brazoRobotico{
                 bool objeto;
 
         public:
-                brazoRobotico(int x_, int y_, int z_, bool objeto_){
+                brazoRobotico(int x_, int y_, int z_, bool objeto_);:wq
                         
                 double obtenerX();
 
