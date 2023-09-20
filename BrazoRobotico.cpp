@@ -1,6 +1,6 @@
 #include "BrazoRobotico.h"
 
-BrazoRobotico::BrazoRobotico(double x, double y, double z, bool objeto){
+BrazoRobotico::BrazoRobotico(double x_, double y_, double z_, bool objeto_){
                 x = x_;
                 y = y_;
                 z = z_;
@@ -23,11 +23,11 @@ bool BrazoRobotico::obtenerObjeto(){
                 return objeto;
 }
 
-void BrazoRobotico::coger(bool objeto){
+void BrazoRobotico::coger(){
                 objeto = true;
 }
 
-void BrazoRobotico::soltar(bool objeto){
+void BrazoRobotico::soltar(){
                 objeto = false;
 }
 

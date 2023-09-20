@@ -1,7 +1,7 @@
 # include <iostream>
-using namespace;
+using namespace std;
 
-Class brazoRobotico{
+class BrazoRobotico{
 
         private:
                 double x;
@@ -9,8 +9,9 @@ Class brazoRobotico{
                 double z;
                 bool objeto;
 
+
         public:
-                brazoRobotico(int x_, int y_, int z_, bool objeto_);
+                BrazoRobotico(double x_, double y_, double z_, bool objeto_);
                         
                 double obtenerX();
 
@@ -20,8 +21,9 @@ Class brazoRobotico{
 
                 bool obtenerObjeto();
 
-                void coger(bool objeto);
+                void coger();
 
-                void soltar(bool objeto);
+                void soltar();
 
                 void mover(double newx, double newy, double newz);
+};
